@@ -1,0 +1,53 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+/* 🌄 Background Image Wrapper */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  /* ✅ Add your background image here */
+  background-image: url('https://hd.wallpaperswide.com/thumbs/motivation_fitness_workout_dark-t2.jpg'); /* ✅ Put image in public/images */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Main section content with overlay or contrast */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+
+  background: rgba(255, 255, 255, 0.85); /* Light semi-transparent white */
+  border-radius: 12px;
+  margin: 2rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Page content box */
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  background: transparent; /* transparent inside container */
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* Optional enhancements */
+.navbar, .footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto;
+}
